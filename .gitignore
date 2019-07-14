@@ -361,5 +361,6 @@ MigrationBackup/
 **/*-client/src/**/*.map
 **/*-client/src/**/*.d.ts
 **/*-client/scripts/app
+**/*-client/public
 
 # end of custom section
