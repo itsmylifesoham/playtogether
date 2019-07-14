@@ -4,7 +4,7 @@ module.exports = {
     entry: "./src/app.ts",
     devtool: "source-map",
     output: {
-        filename: "tanks-bundle.js",
+        filename: "app-bundle.js",
         path: path.resolve(__dirname, 'scripts/app')
     },
     resolve: {

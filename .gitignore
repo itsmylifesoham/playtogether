@@ -357,10 +357,10 @@ MigrationBackup/
 
 # custom section
 
-**/*-client/src/**/*.js
-**/*-client/src/**/*.map
-**/*-client/src/**/*.d.ts
-**/*-client/scripts/app
-**/*-client/public
+**/client-code/src/**/*.js
+**/client-code/src/**/*.map
+**/client-code/src/**/*.d.ts
+**/client-code/scripts/app
+**/client-code/public
 
 # end of custom section
