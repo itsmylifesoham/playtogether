@@ -5,7 +5,7 @@ module.exports = {
     devtool: "source-map",
     output: {
         filename: "tanks-bundle.js",
-        path: path.resolve(__dirname, 'scripts')
+        path: path.resolve(__dirname, 'scripts/app')
     },
     resolve: {
         extensions: [".ts"],
