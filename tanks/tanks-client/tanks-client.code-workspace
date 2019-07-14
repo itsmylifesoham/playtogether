@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"**/node_modules": true,
+			"**/out": true,
+            "**/out-tsc": true,
+			"**/dist": true,
+            "src/*.js": true,
+            "**/*.d.ts": true,
+            "**/*.js.map": true,
+            "**/.vscode": true,
+            "**/@types": true,
+            "public": true,
+        },
+		"editor.detectIndentation": false
+	}
+}
