@@ -359,6 +359,7 @@ MigrationBackup/
 
 **/*-client/src/**/*.js
 **/*-client/src/**/*.map
+**/*-client/src/**/*.d.ts
 **/*-client/scripts/app
 
 # end of custom section
