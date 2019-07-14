@@ -1,3 +1,7 @@
+import * as SFS2X from "sfs2x-api";
+
+var sfs = new SFS2X.SmartFox();
+
 var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create });
 
 function preload() {
