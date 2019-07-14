@@ -4,8 +4,8 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:dev": "tsc && webpack --mode development",
-    "build:prod": "tsc && webpack --mode production"
+    "build:dev": "tsc && webpack --mode development && gulp publish-for-web",
+    "build:prod": "tsc && webpack --mode production && gulp publish-for-web"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +13,8 @@
     "phaser-ce": "^2.13.2"
   },
   "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
     "ts-loader": "^6.0.4",
     "typescript": "^3.5.3",
     "webpack": "^4.35.3",
