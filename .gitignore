@@ -357,10 +357,15 @@ MigrationBackup/
 
 # custom section
 
-**/client-code/src/**/*.js
-**/client-code/src/**/*.map
-**/client-code/src/**/*.d.ts
-**/client-code/scripts/app
-**/client-code/public
+# ignores for www folder contents where we actively develop
+**/client-code/www
+
+# ignores for built app-bundle.js
+**/client-code/www-code/scripts/app
+
+# ignores for phonegap
+
+**/client-code/platforms
+**/client-code/plugins
 
 # end of custom section
